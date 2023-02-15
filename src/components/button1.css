@@ -1,0 +1,29 @@
+.buttonparrent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+
+.btnstyle{
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    transition-duration: 0.5s;
+}
+.btnstyle:hover{
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    -webkit-box-shadow: 10px 10px 22px -8px rgba(0,255,64,1);
+    -moz-box-shadow: 10px 10px 22px -8px rgba(0,255,64,1);
+    box-shadow: 10px 10px 22px -8px rgba(0,255,64,1);
+}
+
+.txt{
+    color: white;
+}
